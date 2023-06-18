@@ -20,3 +20,11 @@ Route::any('/', function () {
     // ...
 });
  ```
+
+2. **Broken Routes** 
+- use Route::fallback to handle requests that do not match any defined routes in your application.
+```php
+Route::fallback(function () {
+    return view('errors.404');
+});
+ ```
