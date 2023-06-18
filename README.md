@@ -5,7 +5,7 @@ Welcome to the comprehensive guide of Laravel tips, ranging from beginner to sen
 Laravel is a popular PHP framework known for its elegant syntax, expressive features, and extensive ecosystem. This documentation will cover tips and tricks that will help you improve your Laravel coding skills and efficiency. It is organized into different levels of expertise to cater to developers at various stages of their Laravel journey.
 
 ## Table of Contents
-1. [route](#introduction)
+1. [route](https://github.com/andrew-atef/laravel-For-Senior/blob/main/route.md)
 <!---
 5. [Beginner Tips](#beginner-tips)
 6. [Intermediate Tips](#intermediate-tips)
