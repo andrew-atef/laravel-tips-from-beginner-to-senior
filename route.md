@@ -6,10 +6,17 @@
 
 ## Beginner Tips 
 
-1. **route** 
+1. **HTTP methods** 
 - you can register a route that responds to multiple HTTP methods using Route::match.
 ```php
 Route::match(['get', 'post'], '/', function () {
+    // ...
+});
+ ```
+
+- you can register a route that responds to all HTTP methods using Route::any.
+```php
+Route::any('/', function () {
     // ...
 });
  ```
