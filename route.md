@@ -8,7 +8,7 @@
 
 1. **route** 
 - you can register a route that responds to multiple HTTP methods using Route::match.
-```
+```php
 Route::match(['get', 'post'], '/', function () {
     // ...
 });
