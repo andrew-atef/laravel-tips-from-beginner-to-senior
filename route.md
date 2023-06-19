@@ -28,3 +28,16 @@ Route::fallback(function () {
     return view('errors.404');
 });
  ```
+
+
+## Intermediate Tips 
+
+1. **Subdomain Routes** 
+- you can access and check Subdomain by Route::domain.
+```php
+Route::domain('{account}.localhost')->group(function () {
+    Route::get('/', function (string $account) {
+        return $account;
+    });
+});
+ ```
