@@ -41,3 +41,28 @@ Route::domain('{account}.localhost')->group(function () {
     });
 });
  ```
+
+## Senior Tips 
+
+1. **Macro Routes** 
+- Route Macros allow you to define custom macros that can be used to enhance the functionality of the Laravel routing system. Macros enable you to add new methods to the Illuminate\Routing\Router.
+in RouteServiceProvider.php
+```php
+    public function boot(): void
+    {
+        Route::macro('myMacro' , function (){
+            Route::get('index', function (){
+                return "test macro route";
+            });
+        });
+    ....
+    }
+ ```
+in web.php
+```php
+Route::myMacro();
+ ```
+
+
+
+
