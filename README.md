@@ -6,9 +6,11 @@ Laravel is a popular PHP framework known for its elegant syntax, expressive feat
 
 ## Table of Contents
 1. [Route](https://github.com/andrew-atef/laravel-tips-from-beginner-to-senior/blob/main/route.md)
-1. [Model](https://github.com/andrew-atef/laravel-tips-from-beginner-to-senior/blob/main/model.md)
+2. [Model](https://github.com/andrew-atef/laravel-tips-from-beginner-to-senior/blob/main/model.md)
+3. [Blade Templates](https://github.com/andrew-atef/laravel-tips-from-beginner-to-senior/blob/main/blade.md)
 <!---
 5. [Beginner Tips](#beginner-tips)
 6. [Intermediate Tips](#intermediate-tips)
 7. [Senior Tips](#senior-tips)
 -->
+
