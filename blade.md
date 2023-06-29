@@ -8,7 +8,7 @@
 
 1. **CSRF Field** 
 - use @csrf to pass through the CSRF protection middleware.
-```php
+```blade
 <form method="POST" action="/route">
     @csrf
     ...
