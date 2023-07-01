@@ -48,3 +48,27 @@
     <div>This will only be displayed once.</div>
 @endonce
  ```
+
+## Senior Tips 
+
+1. **@include Error Handling** 
+- 1) The @includeIf is used if you would like to include a view that may or may not be present : 
+```blade
+@includeIf('layouts.header')
+ ```
+
+- 2) The @includeWhen is used if the given condition is true : 
+```blade
+@includeWhen(Auth::check(), 'layouts.header')
+ ```
+
+- 3) The @includeUnless is used unless a specific condition is true : 
+```blade
+@includeUnless($isAdmin, 'layouts.header')
+ ```
+
+- 4) The @includeFirst is used to includes the first view that exists from the list of views provided : 
+```blade
+@includeFirst(['layouts.featured', 'layouts.header'])
+ ```
+
